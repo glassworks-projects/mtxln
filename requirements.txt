@@ -13,8 +13,11 @@ torch == 1.7.1
 # xlnet_full_glue.py: 11
 transformers == 2.11.0
 
+# below added manually 
 jupyter == 1.0.0
 
-sklearn = 1.5.4
+scikit-learn == 0.23.2
 
-scipy = 0.0
+scipy == 1.5.4
+
+tensorboard == 2.4.0

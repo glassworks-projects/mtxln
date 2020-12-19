@@ -11,6 +11,10 @@ Our results are mixed:
 | BERT  | **0.521**             | 0.867/0.86                     | 0.45            |
 | XLNet | 0.258                 | **0.885/0.88**                 | **0.56**        |
 
+mtl-run.ipynb provides the code for creating and running the model. We have also provided a code for testing the performance of our model according to different input maximum sequence length in seq-length.ipynb.
+
+Although we ran the code on selected GLUE tasks, the same code can be extended to the other GLUE task as well. Please refer to the HugingFace library for GLUE tasks (https://huggingface.co/transformers/v2.3.0/examples.html) for more details.
+
 ## Running this repo
 
 1. This repository is set up to run on Python 3.8. Make sure your Python environment has a matching version.
